@@ -1,0 +1,71 @@
+@media screen and (max-width: 1000px) {
+
+    .us_menu {
+        position: fixed;
+        z-index: 3555;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        height: 70px;
+        background: rgba(0, 0, 0, .55);
+        min-width: 1000px;
+    }
+
+    .best_menu {
+        width: 830px;
+        font-size: 0.75em;
+    }
+
+    /*.us_lang{
+        width: 180px;
+        font-size: 0.8em;
+    }*/
+    .hide_short {
+        display: none;
+    }
+
+    .inner-container {
+        width: 900px;
+    }
+
+    body {
+        overflow-x: hidden;
+        width: 1000px;
+    }
+
+    .short-display-hide {
+        display: none;
+    }
+    .width-right-big{
+        width: 50%;
+    }
+    .gal_wid {
+        width: 240px;
+        margin-top: 30px;
+        display: inline-block;
+        height: 260px;
+        margin-left: 40px;
+    }
+
+    section.foto-effect {
+        width: 405px;
+    }
+
+    .background-see {
+        background: url('/img/site/ul2.jpg') no-repeat center center;
+        background-size: 520px 100%;
+        background-size: cover;
+        height: 520px;
+    }
+
+    .slogan {
+        position: relative;
+        top: 0px;
+    }
+
+    .right-block-logo {
+        float: right;
+        width: 35%;
+    }
+}
+

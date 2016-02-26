@@ -1,0 +1,13 @@
+Options -Indexes
+DirectoryIndex index.php
+AddDefaultCharset UTF-8
+AddCharset utf-8 .html .css .js .xml .json .rss .atom
+
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,NC,L]
+
+RewriteCond %{REQUEST_URI} !^(.*/css/.*|.*/img/.*|.*/js/.*|.*/files/.*|/.*\.(ico|html|xml|txt))$ [NC]
+RewriteRule ^.*$ index.php [L,QSA]
